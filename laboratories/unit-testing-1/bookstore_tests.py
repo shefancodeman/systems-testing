@@ -79,7 +79,7 @@ def test_get_books_by_genre():
     """
     TESTING OBJECTIVES:
     1. Add multiple books with different genres
-    2. Filter books by specific genres
+    2. Filter books by specific genres using parametrize
     3. Verify:
        - Only books of the specified genre are returned
        - Filtering is case-insensitive
@@ -90,7 +90,7 @@ def test_get_books_by_genre():
     
     HINTS:
     - Use service's get_books() method with genre parameter
-    - Check length and genre of returned books
+    - Check length and genre of returned books using parametrize
     """
     # Your implementation here
     pass
