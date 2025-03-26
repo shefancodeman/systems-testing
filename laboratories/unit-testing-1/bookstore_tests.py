@@ -7,18 +7,14 @@ from bookstore.services.bookstore_service import BookStoreService
 
 
 # TODO: Create a fixture that returns a BookService instance
-# HINTS:
-# - Use InMemoryBookRepository as the default repository
-# - Create a BookFilter instance
-# - Inject dependencies into BookService
 def create_book_service():
     """
     INSTRUCTIONS:
     - Create and return a BookService instance
     - Use InMemoryBookRepository for storage
-    - Use default BookFilter
+    - Use default BookFilterService
     
-    EXAMPLE STRUCTURE:
+    HINTS:
     repository = ...
     book_filter_service = ...
     return BookService(repository, book_filter_service)

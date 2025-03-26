@@ -4,6 +4,8 @@
 
 This repository contains a simple bookstore management system to help you learn basic pytest and unit testing.
 
+Your grade will be determined by how well your tests cover the functionality of the code, not just by the number of passing tests.
+
 ## Project Structure
 
 1. bookstore: a simple bookstore manager implementation.
