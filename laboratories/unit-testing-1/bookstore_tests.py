@@ -39,6 +39,7 @@ def create_sample_book():
     pass
 
 
+# INFO: For the following tests, use only the BookService instance created by the fixture
 def test_add_book():
     """
     TESTING OBJECTIVES:
@@ -75,11 +76,12 @@ def test_add_book_validation():
     pass
 
 
+# INFO: Here you should use @pytest.mark.parametrize to test multiple genres
 def test_get_books_by_genre():
     """
     TESTING OBJECTIVES:
     1. Add multiple books with different genres
-    2. Filter books by specific genres using parametrize
+    2. Filter books by specific genres
     3. Verify:
        - Only books of the specified genre are returned
        - Filtering is case-insensitive
@@ -90,12 +92,13 @@ def test_get_books_by_genre():
     
     HINTS:
     - Use service's get_books() method with genre parameter
-    - Check length and genre of returned books using parametrize
+    - Check length and genre of returned books
     """
     # Your implementation here
     pass
 
 
+# INFO: Here you should use @pytest.mark.parametrize to test multiple price ranges
 def test_price_range_filtering():
     """
     TESTING OBJECTIVES:
