@@ -6,15 +6,23 @@ This repository contains a simple bookstore management system to help you learn 
 
 ## Project Structure
 
-#TBD
+1. bookstore: a simple bookstore manager implementation.
+
+    > Do not touch the files in the bookstore directory or you'll get cursed! 🧙‍♀️
+
+2. bookstore_tests.py: the file you will need to add your test for the bookstore implementation.
 
 ## Getting Started
 
-1. Clone the repository
-2. Ensure you have Python and pytest installed
-3. Run tests using: `pytest -v bookstore_tests.py`
+1. Clone this repository on your local machine
+2. Install python and pytest
+3. Run tests using:
+
+```bash
+pytest -v bookstore_tests.py
+```
 
 ## Recommended Setup
 
--   Python 3.10+
+-   python 3.10+ (or 3.8+)
 -   pytest
