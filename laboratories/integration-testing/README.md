@@ -6,7 +6,7 @@ This lab is designed to help you practice **integration testing** using `pytest`
 
 ## Project Structure
 
-1. `integration_test_template.py`: A starter file where you will implement your own integration tests.
+1. `integration_tests.py`: A starter file where you will implement your own integration tests.
 
 > No backend implementation is required — you will be testing directly against the public Pixegami API.
 
