@@ -1,4 +1,4 @@
-import Tree from tree
+from tree import Tree
 
 tree = Tree()
 
