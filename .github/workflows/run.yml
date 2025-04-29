@@ -16,5 +16,6 @@ jobs:
       - name: 🚀 Run
         shell: bash
         run: |
+          pip3 install pytest
           cd laboratories/cicd-documentation
           pytest
