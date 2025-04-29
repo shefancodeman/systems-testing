@@ -1,5 +1,6 @@
 name: cicd-documentation
 pip3 install pytest
+
 on:
   workflow_dispatch:
 
